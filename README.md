@@ -46,7 +46,7 @@ For SB2040 CAN
 ![image](https://user-images.githubusercontent.com/5041760/210431112-60c6af39-2310-49c9-a129-7992140ba9f2.png)
 
 - sudo service klipper stop
-- cd ~/CanBoot/scripts
+- cd ~/katapult/scripts
 - python3 flash_can.py -i can0 -f ~/klipper/out/klipper.bin -u 841d241d87cb
 - sudo service klipper start
 
